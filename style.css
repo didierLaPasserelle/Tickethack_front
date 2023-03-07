@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* -----------------------------------NAVBAR------------------------ */
+
+.navbar{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    text-decoration: none;
+}
+
+h3{
+    color: green;
+}
+
+ul{
+    display: flex;
+    list-style-type: none; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.liDeuxiemeEnfant{
+    margin-left: 20px;
+}
+
+/* -----------------------MAIN------------------- */
+
+h1,p{
+    color: white;
+}
+
+.btn{
+    background-color: green;
+    width: 25%;
+    height: 30px;
+    color: white
+}
+
+.cardsMiseEnPage{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+img{
+    width: 70%
+}
+
